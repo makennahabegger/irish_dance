@@ -8,22 +8,9 @@ date: '2022-05-09'
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Getting the Results
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+The first thing to do is get the results into R. Unfotunaly all of the result files are PDFs so I'll have a fair amount of tidying to do once they are in.  
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+The results for the Mid America Region from 2011 to present are at 
+[QuickFeis](https://www.quickfeis.com/Oireachtas). Each year has a page and then a button for each individual competition which will download the pdf. Since I don't want to spend hours clicking to open and save all the individual files I'm going to find a way to automate at least a good portion of the process. 
